@@ -71,7 +71,7 @@ A quick way to create forms in Xamarin.Forms. (Based on [this](https://devblogs.
   ```
     , and DynamicRule<T> can be found [here](https://github.com/M4rYu5/M5.Xamarin.Forms.Form/blob/master/src/Rules/DynamicRule.cs).
 ## Set the Form Action
-  The form action must return true if it has succeed or false otherwise.
+  The form action must return true if it had succeeded or false otherwise.
   ```csharp
        //set the form action to a local funcion
        _Form.SubmitAction = _Form_SubmitAction;
