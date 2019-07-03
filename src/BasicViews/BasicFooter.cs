@@ -15,11 +15,11 @@ namespace M5.Xamarin.Forms.Form.BasicViews
         /// <summary>
         /// Submit event
         /// </summary>
-        public event Action Submit;
+        public override event Action Submit;
         /// <summary>
         /// Cancel event
         /// </summary>
-        public event Action Cancel;
+        public override event Action Cancel;
 
         public BasicFooter()
         {

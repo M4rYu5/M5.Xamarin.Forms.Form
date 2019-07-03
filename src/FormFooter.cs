@@ -31,10 +31,10 @@ namespace M5.Xamarin.Forms.Form
         /// <summary>
         /// Call when a submit was required (by footer)
         /// </summary>
-        event Action Submit;
+        public virtual event Action Submit;
         /// <summary>
         /// Call when a cancel was required (by footer)
         /// </summary>
-        event Action Cancel;
+        public virtual event Action Cancel;
     }
 }

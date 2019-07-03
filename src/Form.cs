@@ -61,8 +61,8 @@ namespace M5.Xamarin.Forms.Form
             this.Children.Add(FormBodyScrollContainer);
 
             //Add footer
-            FooterContainer.Content = _footer;
             Footer = new BasicViews.BasicFooter();
+            FooterContainer.Content = Footer;
             this.Children.Add(FooterContainer);
         }
 
@@ -169,6 +169,7 @@ namespace M5.Xamarin.Forms.Form
             {
                 _footer?.OnFormRemoved(this);
                 _footer = value;
+                FooterContainer.Content = Footer;
                 _footer?.OnFormAdded(this);
             }
         }
